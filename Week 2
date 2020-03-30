@@ -1,0 +1,4 @@
+def validate_pin(otp):
+    if otp.isdecimal() and (len(otp) == 4 || len(otp) == 6):
+        return True
+    return False
